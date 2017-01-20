@@ -1,0 +1,112 @@
+#header img { 
+    margin: 1em;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container {
+    display: table;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.row {
+   display: table-row;
+}
+
+#footer-links {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:750px;
+    background-color: #ffffff;
+}
+
+#footer { 
+    top: 20px;
+    width:750px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#header{
+  top:0;
+  left:0;
+  height:7em;
+  color:#009;
+  background:#ffffff;
+  border:3px solid #708090;
+  position:relative;
+  }
+  
+h1 {font-size: 1.8em; padding:0.2em 0.3em;}
+h2 {font-size: 1.3em; color: #8b0000;}
+
+#top {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:750px;
+    background-color: #ffffff;
+}
+
+#main {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:750px;
+    background-color: #ffffff;
+}
+
+#intro ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+  font-size:20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#copyright {
+   text-align:center;
+   font-size:12px;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
+/* allow room for 2 columns for services */
+  #services ul
+  {
+    width: 60em;
+  }
+
+  /* float & allow room for the widest item */
+  #services ul li
+  {
+    float: left;
+    width: 30em;
+  }
+
+  /* stop the float */
+  #services br
+  {
+    clear: left;
+  }
+
+  /* separate the list from subsequent markup */
+  div#services
+  {
+    margin-bottom: 1em;
+  }
+
+/************ end of services  */
+
+.hideme {
+    display:none;
+}
